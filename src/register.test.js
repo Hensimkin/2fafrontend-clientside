@@ -9,7 +9,7 @@ async function testRegister() {
 
         // Find the email field and enter the email
         let emailInput = await driver.findElement(By.xpath('//input[@type="email"]'));
-        await emailInput.sendKeys('example123@example.com');
+        await emailInput.sendKeys('example1234567@example.com');
 
         // Find the password field and enter a password
         let passwordInput = await driver.findElement(By.xpath('//input[@type="password"]'));
